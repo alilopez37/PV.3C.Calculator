@@ -1,7 +1,12 @@
 import Section from "../components/organisms/Section";
+import './Home.css'
 
 function Home() {
-    return <Section></Section>;
+    return (
+        <div id="calc_pages">
+            <Section></Section>
+        </div>
+    )
 }
 
 export default Home;
